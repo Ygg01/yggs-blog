@@ -1,18 +1,25 @@
-# Generated website directory
-_site/
+# build output
+dist/
 
-# Sass cache
-.sass-cache/
+# dependencies
+node_modules/
 
-# Jekyll cache & metadata
-.jekyll-cache/
-.jekyll-metadata
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
 
-# Notes graph metadata
-_includes/notes_graph.json
+# environment variables
+.env
+.env.production
 
-# Obsidian config
-.obsidian/
+# macOS-specific files
+.DS_Store
 
-# Idea config
+# Astro
+.astro/ src/content/blog/*
+.astro/
+
+# Idea
 .idea
